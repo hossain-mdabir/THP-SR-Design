@@ -13,6 +13,13 @@
 		104A8C2F292169B00031EE3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104A8C2E292169B00031EE3B /* Preview Assets.xcassets */; };
 		104A8C3629216B0A0031EE3B /* SalesReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A8C3529216B0A0031EE3B /* SalesReport.swift */; };
 		104A8C38292171440031EE3B /* OutStandingBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A8C37292171440031EE3B /* OutStandingBill.swift */; };
+		108FFC9A2936645B0088F277 /* StickyAnimatedHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108FFC992936645B0088F277 /* StickyAnimatedHeader.swift */; };
+		10F1E7682936688A005462D6 /* HeaderHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1E7672936688A005462D6 /* HeaderHome.swift */; };
+		10F1E76A293688DD005462D6 /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1E769293688DD005462D6 /* OffsetModifier.swift */; };
+		10F1E76C2937D31F005462D6 /* MonthAndYearCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1E76B2937D31F005462D6 /* MonthAndYearCalendar.swift */; };
+		10F1E76F2937D37F005462D6 /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1E76E2937D37F005462D6 /* DateHolder.swift */; };
+		10F1E7712937D587005462D6 /* DateScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1E7702937D587005462D6 /* DateScrollerView.swift */; };
+		10F1E7742937D890005462D6 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1E7732937D890005462D6 /* CalendarHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +30,13 @@
 		104A8C2E292169B00031EE3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		104A8C3529216B0A0031EE3B /* SalesReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesReport.swift; sourceTree = "<group>"; };
 		104A8C37292171440031EE3B /* OutStandingBill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutStandingBill.swift; sourceTree = "<group>"; };
+		108FFC992936645B0088F277 /* StickyAnimatedHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyAnimatedHeader.swift; sourceTree = "<group>"; };
+		10F1E7672936688A005462D6 /* HeaderHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderHome.swift; sourceTree = "<group>"; };
+		10F1E769293688DD005462D6 /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
+		10F1E76B2937D31F005462D6 /* MonthAndYearCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthAndYearCalendar.swift; sourceTree = "<group>"; };
+		10F1E76E2937D37F005462D6 /* DateHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
+		10F1E7702937D587005462D6 /* DateScrollerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateScrollerView.swift; sourceTree = "<group>"; };
+		10F1E7732937D890005462D6 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +69,9 @@
 		104A8C26292169AF0031EE3B /* THP SR Design */ = {
 			isa = PBXGroup;
 			children = (
+				10F1E76D2937D333005462D6 /* Calendar */,
+				108FFC9829365F5E0088F277 /* DesignPractice */,
+				108FFC9729365F4F0088F277 /* Views */,
 				104A8C27292169AF0031EE3B /* THP_SR_DesignApp.swift */,
 				104A8C29292169AF0031EE3B /* ContentView.swift */,
 				104A8C3529216B0A0031EE3B /* SalesReport.swift */,
@@ -71,6 +88,34 @@
 				104A8C2E292169B00031EE3B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		108FFC9729365F4F0088F277 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		108FFC9829365F5E0088F277 /* DesignPractice */ = {
+			isa = PBXGroup;
+			children = (
+				108FFC992936645B0088F277 /* StickyAnimatedHeader.swift */,
+				10F1E7672936688A005462D6 /* HeaderHome.swift */,
+				10F1E769293688DD005462D6 /* OffsetModifier.swift */,
+			);
+			path = DesignPractice;
+			sourceTree = "<group>";
+		};
+		10F1E76D2937D333005462D6 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				10F1E76B2937D31F005462D6 /* MonthAndYearCalendar.swift */,
+				10F1E7702937D587005462D6 /* DateScrollerView.swift */,
+				10F1E76E2937D37F005462D6 /* DateHolder.swift */,
+				10F1E7732937D890005462D6 /* CalendarHelper.swift */,
+			);
+			path = Calendar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,8 +189,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				104A8C2A292169AF0031EE3B /* ContentView.swift in Sources */,
+				10F1E76C2937D31F005462D6 /* MonthAndYearCalendar.swift in Sources */,
 				104A8C28292169AF0031EE3B /* THP_SR_DesignApp.swift in Sources */,
+				108FFC9A2936645B0088F277 /* StickyAnimatedHeader.swift in Sources */,
+				10F1E76A293688DD005462D6 /* OffsetModifier.swift in Sources */,
+				10F1E7682936688A005462D6 /* HeaderHome.swift in Sources */,
+				10F1E7712937D587005462D6 /* DateScrollerView.swift in Sources */,
+				10F1E7742937D890005462D6 /* CalendarHelper.swift in Sources */,
 				104A8C3629216B0A0031EE3B /* SalesReport.swift in Sources */,
+				10F1E76F2937D37F005462D6 /* DateHolder.swift in Sources */,
 				104A8C38292171440031EE3B /* OutStandingBill.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,9 @@ import SwiftUI
 struct THP_SR_DesignApp: App {
     var body: some Scene {
         WindowGroup {
-            Login()
+            let dateHolder = DateHolder()
+            DateScrollerView()
+                .environmentObject(dateHolder)
         }
     }
 }
