@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1047C9B0293A29830031ACED /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1047C9AF293A29830031ACED /* Album.swift */; };
+		1047C9B3293A2FA60031ACED /* HomeSticky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1047C9B2293A2FA60031ACED /* HomeSticky.swift */; };
+		1047C9B5293A30440031ACED /* ContentViewSticky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1047C9B4293A30440031ACED /* ContentViewSticky.swift */; };
 		104A8C28292169AF0031EE3B /* THP_SR_DesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A8C27292169AF0031EE3B /* THP_SR_DesignApp.swift */; };
 		104A8C2A292169AF0031EE3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A8C29292169AF0031EE3B /* ContentView.swift */; };
 		104A8C2C292169B00031EE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104A8C2B292169B00031EE3B /* Assets.xcassets */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1047C9AF293A29830031ACED /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		1047C9B2293A2FA60031ACED /* HomeSticky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSticky.swift; sourceTree = "<group>"; };
+		1047C9B4293A30440031ACED /* ContentViewSticky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewSticky.swift; sourceTree = "<group>"; };
 		104A8C24292169AF0031EE3B /* THP SR Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "THP SR Design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		104A8C27292169AF0031EE3B /* THP_SR_DesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THP_SR_DesignApp.swift; sourceTree = "<group>"; };
 		104A8C29292169AF0031EE3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +56,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1047C9AD293A293B0031ACED /* AnimatedStickyHeader */ = {
+			isa = PBXGroup;
+			children = (
+				1047C9B1293A2F930031ACED /* View */,
+				1047C9AE293A29690031ACED /* Model */,
+			);
+			path = AnimatedStickyHeader;
+			sourceTree = "<group>";
+		};
+		1047C9AE293A29690031ACED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1047C9AF293A29830031ACED /* Album.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1047C9B1293A2F930031ACED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1047C9B2293A2FA60031ACED /* HomeSticky.swift */,
+				1047C9B4293A30440031ACED /* ContentViewSticky.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		104A8C1B292169AF0031EE3B = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +101,7 @@
 		104A8C26292169AF0031EE3B /* THP SR Design */ = {
 			isa = PBXGroup;
 			children = (
+				1047C9AD293A293B0031ACED /* AnimatedStickyHeader */,
 				10F1E76D2937D333005462D6 /* Calendar */,
 				108FFC9829365F5E0088F277 /* DesignPractice */,
 				108FFC9729365F4F0088F277 /* Views */,
@@ -194,11 +227,14 @@
 				108FFC9A2936645B0088F277 /* StickyAnimatedHeader.swift in Sources */,
 				10F1E76A293688DD005462D6 /* OffsetModifier.swift in Sources */,
 				10F1E7682936688A005462D6 /* HeaderHome.swift in Sources */,
+				1047C9B3293A2FA60031ACED /* HomeSticky.swift in Sources */,
 				10F1E7712937D587005462D6 /* DateScrollerView.swift in Sources */,
 				10F1E7742937D890005462D6 /* CalendarHelper.swift in Sources */,
+				1047C9B5293A30440031ACED /* ContentViewSticky.swift in Sources */,
 				104A8C3629216B0A0031EE3B /* SalesReport.swift in Sources */,
 				10F1E76F2937D37F005462D6 /* DateHolder.swift in Sources */,
 				104A8C38292171440031EE3B /* OutStandingBill.swift in Sources */,
+				1047C9B0293A29830031ACED /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,7 +12,7 @@ struct THP_SR_DesignApp: App {
     var body: some Scene {
         WindowGroup {
             let dateHolder = DateHolder()
-            DateScrollerView()
+            ContentViewSticky()
                 .environmentObject(dateHolder)
         }
     }
